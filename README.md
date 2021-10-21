@@ -12,6 +12,7 @@ Usage:
 $this->load->library("unit_test");
 $this->load->model("TestHttp");
 //set base url like so (you can remove index.php if htaccess is configured):
+
 $this->TestHttp->base_url = "http://localhost/codeigniter_test/index.php/";
 
 
